@@ -2,4 +2,4 @@
 
 ## None algorithm modifications
 
-Exploition is explined in 
+Exploition is explined in [JWT exploit ]()
