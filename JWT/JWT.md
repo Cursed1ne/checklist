@@ -8,10 +8,10 @@ Unlike with classic session tokens, all of the data that a server needs is store
 
 ## How to test JWT 
 
-Jwt has 3 sections:
-1- Header
-2- Payload
-3- Signature
+Jwt has 3 parts:<br>
+1- Header<br>
+2- Payload<br>
+3- Signature<br>
 
 <p> Header and payload is basically just base64URL-encoded JASON object. <br> The header contains metadata about the token itself. for given below example of JWT <br> This devides 3 parts as said earlier , the first part is header, second is the payload and 3rd is the signature </p> <br> Signature : <p>The server that issues the token typically generates the signature by hashing the header and payload. In some cases, they also encrypt the resulting hash. Either way, this process involves a secret signing key. This mechanism provides a way for servers to verify that none of the data within the token has been tampered with since it was issued </p>
 
