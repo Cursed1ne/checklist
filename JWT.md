@@ -13,4 +13,10 @@ Jwt has 3 sections:
 2- Payload
 3- Signature
 
+<p> Header is basically just base64URL-encoded JASON object. <br> The header contains metadata about the token itself. for given below example of JWT <br> This devides 3 parts as said earlier , the first part is header </p>
 
+`
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dnZWRJbkFzIjoiYWRtaW4iLCJpYXQiOjE0MjI3Nzk2Mzh9.gzSraSYS8EXBxLN_oWnFSRgCzcmJmMjLiuyu5CSpyHI
+`
+
+![image](https://github.com/CursedOne69/checklist/assets/67145912/51c4aaf9-dcbc-4f94-99fc-a7714fd886d0)
